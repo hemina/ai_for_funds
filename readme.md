@@ -4,7 +4,7 @@
 **27 Dec. 2016**  
 **By Mina HE**  				
 *Copyright © reserved.*
-![img](../images/machine-learning-ai-artificial-intelligence-e1462471461626-840x487.jpg?raw=true)
+![img](../master/images/machine-learning-ai-artificial-intelligence-e1462471461626-840x487.jpg?raw=true)
 
 [toc]
 ## 1. Introduction
