@@ -25,11 +25,11 @@ During our development, we will start by implementing the primary functionality 
 ### Primary functionality
 Here are some samples of Question-Answer (QA) tasks presented in the [paper][2], where it's proved that the machine is capable to do the simple text inferencing work after being trained with a large amount of Question-Answer data. It's different from simply looking for an existing expression in the previous reading material, but more importantly, there is a logical deduction process done by the machine as what happens in our brains. Machine comprehension theories are applied to take the TOFEL test, as shown in [this paper][3].
 
-![](../master/images/AI%20funds/QA%20sample.png)
+![](../master/images/QA%20sample.png)
 
 However, in our case, it's not convenient to send a corresponding article to the bot each time before submitting our questions. We prefer talking with a bot already having browsed all wikipedia pages, and millions of authoritative and credible articles. This is the reason why we do need a Knowledge-Based (KB) Question Answering (QA) model as presented in [this paper][1].
 
-![](../master/images/AI%20funds/key%20value%20prez.png)
+![](../master/images/key%20value%20prez.png)
 
 How it works?
 
@@ -71,22 +71,22 @@ As explained above, the primary functionality of the bot "AI For Funds" is a Que
 ####1). Entity Based Sentiment Analysis  
 During the machine reading comprehension process, besides generating the (key, value) pairs for the knowledge bases construction, in the meantime, it's possible to do the Entity Based Sentiment Analysis, as shown in the figure below, provided by [IBM Watson™ AlchemyLanguage][8]. 
 
-<div align=center> <img src="../master/images/AI%20funds/entity.png" width="80%" height="80%"> </div>
+<div align=center> <img src="../master/images/entity.png" width="80%" height="80%"> </div>
 
 The result of Sentiment Analysis could be added into existing knowledge bases. Users could also ask questions about the Sentiment Analysis of particular entities, in which condition the bot sends back the detailed analysis result.
 
 ####2). Yes/No question Mode  
-<div align=center> <img src="../master/images/AI%20funds/yesno.png" width="80%" height="80%"> </div>
+<div align=center> <img src="../master/images/yesno.png" width="80%" height="80%"> </div>
 
 In the previous Question-Answer system, candidate answers are either entities or meaningful sentences. We would like to develop a Yes/No question Mode, where the candidate answers are Yes/No. In this case, the Question-Answer problem can be converted into a binairy classification problem. This functionality could be used to verify the credibility/correctness of user's hypothesis. 
 
 ####3). Reliability control of knowledge bases  
-<div align=center> <img src="../master/images/AI%20funds/stock-vector-reliability-level-conceptual-meter-indicate-hundred-percent-isolated-on-white-background-vector-195459728.jpg" width="50%" height="50%"> </div>
+<div align=center> <img src="../master/images/stock-vector-reliability-level-conceptual-meter-indicate-hundred-percent-isolated-on-white-background-vector-195459728.jpg" width="50%" height="50%"> </div>
 
 It is important to assure the reliability of the knowledge bases. To begin with, we only pick our source data from those official websites like [The Wall Street Journal](<http://www.wsj.com/europe>), assuming that all articles from these websites are credible. Then, to enlarge and refresh the vision of our reading machine, it's inevitable to do daily update on new reading materials. Before taking the new information into account, to update the knowledge bases or candidate answers, we need to control its credibility. This functionnality could probably be realized by applying the "Yes/No question Mode" verification process.
 
 ####4). Automatic Summarization Mode
-<div align=center> <img src="../master/images/AI%20funds/summarization.jpg" width="60%" height="60%"> </div>
+<div align=center> <img src="../master/images/summarization.jpg" width="60%" height="60%"> </div>
 
 It happens very often, that we have a lot of documents to read, but we don't have enough time. We hope to ask someone to read for us, providing only the very condensed summary and keywords. 
 The Automatic Summarization Mode of our bot is useful in this condition. Here is an [example of automatic summarization](<https://github.com/summanlp/textrank>), by applying the algorithm presented in [this paper][9]:
@@ -114,24 +114,24 @@ technology
 We would like to let the user choose, if the bot is authorized to memorize this document. If yes, our knowledge bases and candidate answers would be enriched with the content of this document. If no, there would not be any trace.
 
 ####5). Condensed Newsletters for subscribers
-<div align=center> <img src="../master/images/AI%20funds/newsletter.jpg" width="60%" height="60%"> </div>
+<div align=center> <img src="../master/images/newsletter.jpg" width="60%" height="60%"> </div>
 
 With the Automatic Summarization functionnality, the news summaries could be generated during daily update of the knowledge bases. It's possible to collect and organize these informations, into condensed newsletter, and send it to our subscribers every day. It would be even better if we are able to put the url link of the original sources as well as the condensed summary in the newsletter, so that our subscribers could easily reach a detailed article whenever they want.
 ####6). Customer Service Mode 
-<div align=center> <img src="../master/images/AI%20funds/outsource-customer-service.jpg" width="60%" height="60%"> </div>
+<div align=center> <img src="../master/images/outsource-customer-service.jpg" width="60%" height="60%"> </div>
 
 A customer service representative usually needs to answer the same question for many times. We would like to create a dataset of FAQ(Frequently Asked Questions) with detailed answers, and let our bot take the role of customer service representative. If the user is not satisfied with the bot's answer, we are going to prepare a serie of multiple choice questions, to help the user specify his question, then to help find a corresponding humain customer service representative.
 
 ####7). Image captioning and image retrieval
 During the process of machine reading comprehension,  we encounter very often the images. If we skip all images, it's possible that we can't understand well the context. So we hope to add the functionnality of Image Captioning, where we translate the image into a sentence. Here are the samples generated by the algorithm of Image captioning presented in [this paper][10].
-<div align=center> <img src="../master/images/AI%20funds/image%20capt.png" width="70%" height="70%"> </div>
+<div align=center> <img src="../master/images/image%20capt.png" width="70%" height="70%"> </div>
 On the other hand, when the bot answers the question, it may be more concrete and vivid to explain with image. This functionnality is accessible by applying the image retrieval algorithm as presented in [this paper][10]. In this case, images would also be put in the candidate answer set. 
-<div align=center> <img src="../master/images/AI%20funds/retrieval.png" width="70%" height="70%"> </div>
+<div align=center> <img src="../master/images/retrieval.png" width="70%" height="70%"> </div>
 
 ####8). User feedback collection
 At the end of the bot's answer, we would like to add a rating scale. If the feedback is positive, the bot will add this question-answer pair into our training set automatically. If it's negative, the bot will send this question-answer pair to our developer in order to notify as a problem. In this way, we are able to improve our user experience automatically step by step.
 
-![](../master/images/AI%20funds/user-voice.png)
+![](../master/images/user-voice.png)
 
 ## 3. Potential problems
 In the text above, we have explained what we can do and how we can do it with our intelligent bot. In this part, we are going to talk about the potential obstacles of this project.
