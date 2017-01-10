@@ -11,7 +11,7 @@ files: /js/demo.js,/css/demo.css
 
 [slide style="background-image:url('/img/bg1.png')"]
 
-![](../img/data.png)
+![](/img/data.png)
 
 [slide]
 ### 100MB  
@@ -19,7 +19,7 @@ files: /js/demo.js,/css/demo.css
 <div class="rows2">
 <div class="columns4">
     <FIGURE>
-    <img src="../img/video.jpg" height="150">
+    <img src="https://github.com/hemina/ai_for_funds/tree/master/ppt/img/video.jpg" height="150">
     <FIGCAPTION>Video</FIGCAPTION>
     </FIGURE>
     
