@@ -76,31 +76,17 @@ files: /js/demo.js,/css/demo.css
 </figure>
 
 -----
-https://github.com/hemina/ai_for_funds/blob/master/readme.md
+<https://github.com/hemina/ai_for_funds/blob/master/readme.md>
 
 [slide style="background-image:url('/img/bg1.png')"]
-#MyContact (potential client recommendation)
-#Machine Translation
-#Time series prediction
-#Influential people analysis 
-#Data mining on sales
------ 
-<figure>
-    <img src="../img/audio+transcription.jpg" height="320">
-</figure>
+
+* ### MyContact (potential client recommendation)
+* ###[Data mining on sales](<https://github.com/hemina/ai_for_funds/blob/master/ppt/sales_opportunities_analysis.pdf>) 
+* ### Time series prediction
+* ### Influential people analysis 
+* ### Machine Translation
 
 [slide style="background-image:url('/img/bg1.png')"]
-# 100MB    
------
-<figure>
-    <img src="../img/image.png" width="20%" height="20%">
-</figure>
 
-[slide style="background-image:url('/img/bg1.png')"]
-# <font color="orange"> 100MB </font> 
------
-<figure>    
-    <img src="../img/livre.jpg" width="20%" height="20%">
-</figure>
-
+#Thank you!
 
