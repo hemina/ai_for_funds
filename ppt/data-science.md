@@ -24,17 +24,17 @@ files: /js/demo.js,/css/demo.css
     </FIGURE>
     
     <FIGURE>
-    <img src="../img/audio+transcription.jpg" height="150">
+    <img src="/img/audio+transcription.jpg" height="150">
     <FIGCAPTION>Audio</FIGCAPTION>
     </FIGURE>
     
     <FIGURE>
-    <img src="../img/image.png" height="150">
+    <img src="/img/image.png" height="150">
     <FIGCAPTION>Image</FIGCAPTION>
     </FIGURE>
     
     <FIGURE>
-    <img src="../img/livre.jpg" height="150">
+    <img src="/img/livre.jpg" height="150">
     <FIGCAPTION>Text</FIGCAPTION>
     </FIGURE>
 </div>
@@ -49,22 +49,22 @@ files: /js/demo.js,/css/demo.css
 <div class="row">
 <div class="columns4">
     <FIGURE>
-    <img src="../img/entity.png" height="150">
+    <img src="/img/entity.png" height="150">
     <FIGCAPTION>Named Entity Recognition</FIGCAPTION>
     </FIGURE>
     
 	 <FIGURE>
-    <img src="../img/social-media-sentiment-analysis.jpg" height="150">
+    <img src="/img/social-media-sentiment-analysis.jpg" height="150">
     <FIGCAPTION>Sentiment Analysis</FIGCAPTION>
     </FIGURE>    
     
     <FIGURE>
-    <img src="../img/summarization.jpg" height="150">
+    <img src="/img/summarization.jpg" height="150">
     <FIGCAPTION>Automatic summarization</FIGCAPTION>
     </FIGURE>
     
     <FIGURE>
-    <img src="../img/reading.jpg" height="150">
+    <img src="/img/reading.jpg" height="150">
     <FIGCAPTION>Machine Reading Comprehension</FIGCAPTION>
     </FIGURE>
 </div>
@@ -72,7 +72,7 @@ files: /js/demo.js,/css/demo.css
 
 [slide]
 <figure>    
-    <img src="../img/ml.png">
+    <img src="/img/ml.png">
 </figure>
 
 -----
