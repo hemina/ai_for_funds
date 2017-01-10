@@ -19,7 +19,7 @@ files: /js/demo.js,/css/demo.css
 <div class="rows2">
 <div class="columns4">
     <FIGURE>
-    <img src="https://github.com/hemina/ai_for_funds/tree/master/ppt/img/video.jpg" height="150">
+    <img src="/img/video.jpg" height="150">
     <FIGCAPTION>Video</FIGCAPTION>
     </FIGURE>
     
