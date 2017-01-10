@@ -11,31 +11,96 @@ files: /js/demo.js,/css/demo.css
 
 [slide style="background-image:url('/img/bg1.png')"]
 
-![](file:///Users/hemina/coding/ai_for_funds/ppt/img/data.png)
+![](../img/data.png)
+
+[slide]
+### 100MB  
+-----
+<div class="rows2">
+<div class="columns4">
+    <FIGURE>
+    <img src="../img/video.jpg" height="150">
+    <FIGCAPTION>Video</FIGCAPTION>
+    </FIGURE>
+    
+    <FIGURE>
+    <img src="../img/audio+transcription.jpg" height="150">
+    <FIGCAPTION>Audio</FIGCAPTION>
+    </FIGURE>
+    
+    <FIGURE>
+    <img src="../img/image.png" height="150">
+    <FIGCAPTION>Image</FIGCAPTION>
+    </FIGURE>
+    
+    <FIGURE>
+    <img src="../img/livre.jpg" height="150">
+    <FIGCAPTION>Text</FIGCAPTION>
+    </FIGURE>
+</div>
+</div>
+
+[slide]
+###**N**atural
+###**L**anguage
+###**P**rocessing
+
+-----
+<div class="row">
+<div class="columns4">
+    <FIGURE>
+    <img src="../img/entity.png" height="150">
+    <FIGCAPTION>Named Entity Recognition</FIGCAPTION>
+    </FIGURE>
+    
+	 <FIGURE>
+    <img src="../img/social-media-sentiment-analysis.jpg" height="150">
+    <FIGCAPTION>Sentiment Analysis</FIGCAPTION>
+    </FIGURE>    
+    
+    <FIGURE>
+    <img src="../img/summarization.jpg" height="150">
+    <FIGCAPTION>Automatic summarization</FIGCAPTION>
+    </FIGURE>
+    
+    <FIGURE>
+    <img src="../img/reading.jpg" height="150">
+    <FIGCAPTION>Machine Reading Comprehension</FIGCAPTION>
+    </FIGURE>
+</div>
+</div>
+
+[slide]
+<figure>    
+    <img src="../img/ml.png">
+</figure>
+
+-----
+https://github.com/hemina/ai_for_funds/blob/master/readme.md
 
 [slide style="background-image:url('/img/bg1.png')"]
-
-<figure class="fourth">
-    <img src="file:///Users/hemina/coding/ai_for_funds/ppt/img/video.jpg" alt="The Pulpit Rock" width="20%" height="20%">
-    <img src="file:///Users/hemina/coding/ai_for_funds/ppt/img/audio+transcription.jpg" width="20%" height="20%">
-    <img src="file:///Users/hemina/coding/ai_for_funds/ppt/img/image.png" width="20%" height="20%">
-    <img src="file:///Users/hemina/coding/ai_for_funds/ppt/img/text.jpg" width="20%" height="10%">
+#MyContact (potential client recommendation)
+#Machine Translation
+#Time series prediction
+#Influential people analysis 
+#Data mining on sales
+----- 
+<figure>
+    <img src="../img/audio+transcription.jpg" height="320">
 </figure>
 
 [slide style="background-image:url('/img/bg1.png')"]
-## 使用.class/#id/自定义属性样式
-----
-
-```javascript
-alert('nodeppt');
-```
+# 100MB    
+-----
+<figure>
+    <img src="../img/image.png" width="20%" height="20%">
+</figure>
 
 [slide style="background-image:url('/img/bg1.png')"]
+# <font color="orange"> 100MB </font> 
+-----
+<figure>    
+    <img src="../img/livre.jpg" width="20%" height="20%">
+</figure>
 
-## 主页面样式
-### ----是上下分界线
-----
 
-nodeppt是基于nodejs写的支持 **Markdown!** 语法的网页PPT，当前版本：1.4.2
-
-Github：https://github.com/ksky521/nodePPT
